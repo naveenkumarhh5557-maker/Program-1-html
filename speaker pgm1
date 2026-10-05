@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaker Page - Aaron Sorkin</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Aaron Sorkin</h1>
+            <p>Screenwriter, Director, Producer</p>
+        </header>
+
+        <section>
+            <figure>
+                <img src="sorkin_desk260.jpg" alt="Aaron Sorkin at desk" width="260">
+                <figcaption>
+                    "You don't want to do research because it's distracting, but at the same time,
+                    I want the details."
+                </figcaption>
+            </figure>
+
+            <p>Aaron Sorkin is an acclaimed screenwriter, director, and producer. He is known for his work on
+                projects such as <cite>The West Wing</cite>, <cite>The Social Network</cite>, and
+                <cite>Steve Jobs</cite>.</p>
+
+            <p>Born on June 9, 1961, in New York City, Sorkin developed a passion for storytelling at an early
+                age. His distinctive style, characterized by sharp dialogue and gripping narratives, has
+                earned him critical acclaim and numerous awards.</p>
+
+            <p>Throughout his career, Sorkin has been recognized for his ability to capture the complexities of
+                human relationships and societal issues. His dedication to authenticity and attention to
+                detail make his work stand out in the world of entertainment.</p>
+        </section>
+
+        <footer>
+            <p>Contact Aaron Sorkin: <a href="mailto:info@aaronsorkin.com">info@aaronsorkin.com</a></p>
+        </footer>
+    </main>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundX Speaker</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+        header {
+            background: #000;
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            color: #00e5ff;
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: #00e5ff;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, #111, #222);
+        }
+
+        .hero h2 {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #ccc;
+        }
+
+        .speaker {
+            font-size: 150px;
+            margin: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #00e5ff;
+            color: #000;
+            padding: 14px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .features {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .features h2 {
+            color: #00e5ff;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: #222;
+            padding: 25px;
+            width: 220px;
+            border-radius: 15px;
+        }
+
+        .card h3 {
+            color: #00e5ff;
+        }
+
+        footer {
+            background: #000;
+            text-align: center;
+            padding: 20px;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>SoundX</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#features">Features</a>
+            <a href="#buy">Buy Now</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+
+        <div>
+            <div class="speaker">🔊</div>
+
+            <h2>Powerful Sound. Anywhere.</h2>
+
+            <p>
+                Experience crystal-clear audio with the new SoundX
+                Bluetooth Speaker.
+            </p>
+
+            <a href="#buy" class="btn">Buy Now</a>
+        </div>
+
+    </section>
+
+    <section class="features" id="features">
+
+        <h2>Why SoundX?</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🔊 Powerful Bass</h3>
+                <p>Enjoy deep and powerful bass with crystal-clear sound.</p>
+            </div>
+
+            <div class="card">
+                <h3>🔋 Long Battery</h3>
+                <p>Up to 12 hours of music playback on a single charge.</p>
+            </div>
+
+            <div class="card">
+                <h3>📱 Bluetooth</h3>
+                <p>Connect easily with your phone, tablet or laptop.</p>
+            </div>
+
+            <div class="card">
+                <h3>💧 Water Resistant</h3>
+                <p>Perfect for outdoor use and everyday adventures.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="features" id="buy">
+
+        <h2>SoundX Speaker</h2>
+
+        <p>Premium wireless speaker at an affordable price.</p>
+
+        <h2>₹2,999</h2>
+
+        <a href="#" class="btn">Order Now</a>
+
+    </section>
+
+    <footer>
+        <p>© 2026 SoundX. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
